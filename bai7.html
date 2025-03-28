@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"> </script>
+</head>
+<body>
+  <form action="camon.html" method="post">
+
+    <h2>1. Thông tin về người góp ý</h2>
+    <label for="name">Họ và tên:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Địa chỉ email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <h2>2. Đóng góp ý kiến</h2>
+    <label for="comment">Ý kiến đóng góp:</label>
+    <textarea id="comment" name="comment" required></textarea>
+    <br>
+    <label><input type="checkbox" name="category" value="kynangsong"> Kĩ năng sống</label>
+    <label><input type="checkbox" name="category" value="congnghethongtin"> Công nghệ thông tin</label>
+    <label><input type="checkbox" name="category" value="truyentranh"> Truyện tranh</label>
+    <label><input type="checkbox" name="category" value="lichsu"> Lịch sử</label>
+    <label><input type="checkbox" name="category" value="truyenngan"> Truyện ngắn</label>
+
+    <input type="submit" value="Gửi">
+  </form>
+  
+</body>
